@@ -1,0 +1,24 @@
+section {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .title {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+    .name {
+      font-family: 'Open sans', sans-serif;
+      font-size: 64px;
+      line-height: 1;
+      letter-spacing: 0.2em;
+    }
+    .description {
+      font-size: 20px;
+      margin-top: 5px;
+      text-align: center;
+      letter-spacing: 0.2em;
+    }
+  }
+}
