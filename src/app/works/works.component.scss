@@ -1,0 +1,80 @@
+section {
+  padding: 100px 0;
+  background-color: #f7f7f7;
+  .inner {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 40px;
+    .title-area {
+      margin-bottom: 38px;
+      text-align: center;
+      .title {
+        font-family: 'Open sans', sans-serif;
+        font-size: 40px;
+        font-weight: normal;
+        line-height: 1;
+        margin-bottom: 15px;
+        letter-spacing: 0.05em;
+      }
+    }
+  }
+  .card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &::after {
+      display: block;
+      flex-basis: 31%;
+      content: '';
+    }
+  }
+}
+
+img {
+  height: 260px;
+  width: 350px;
+}
+
+.section-image a {
+  display: block;
+}
+#works .card {
+  flex-basis: 31%;
+  margin-bottom: 60px;
+}
+
+#works .card:nth-child(3n + 1):nth-last-child(-n + 3),
+#works .card:nth-child(3n + 1):nth-last-child(-n + 3) ~ div {
+  margin-bottom: 0;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.card-caption {
+  text-align: center;
+}
+
+.card-caption-title {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.card-caption-info {
+  font-size: 10px;
+}
+
+.card-caption-url {
+  font-size: 10px;
+}
+
+.card img.fadein {
+  transition: 1.5s;
+  opacity: 0;
+}
+
+.card img.fadein.lazyloaded {
+  opacity: 1;
+}

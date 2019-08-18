@@ -136,25 +136,6 @@
   opacity: 1;
 }
 
-/*--------------------------------
- WORKS
----------------------------------*/
-
-#works .card {
-  flex-basis: 31%;
-  margin-bottom: 60px;
-}
-
-#works .card-wrapper::after {
-  display: block;
-  flex-basis: 31%;
-  content: '';
-}
-
-#works .card:nth-child(3n + 1):nth-last-child(-n + 3),
-#works .card:nth-child(3n + 1):nth-last-child(-n + 3) ~ div {
-  margin-bottom: 0;
-}
 
 /*--------------------------------
  FEATURE
