@@ -6,9 +6,13 @@ import { HeaderComponent } from './header/header.component';
 import { TopComponent } from './top/top.component';
 import { WorksComponent } from './works/works.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
+import { AboutComponent } from './about/about.component';
+import { SkillComponent } from './skill/skill.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, TopComponent, WorksComponent],
+  declarations: [AppComponent, HeaderComponent, TopComponent, WorksComponent, AboutComponent, SkillComponent, ContactComponent, FooterComponent],
   imports: [BrowserModule, ScrollToModule.forRoot(), LazyLoadImageModule],
   providers: [],
   bootstrap: [AppComponent]

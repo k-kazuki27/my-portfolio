@@ -1,0 +1,88 @@
+#about .inner,
+#skill .inner {
+  max-width: 1000px;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.section:nth-of-type(odd) {
+  background-color: #f7f7f7;
+}
+
+.section .inner {
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.section-title-area {
+  margin-bottom: 38px;
+  text-align: center;
+}
+
+.section-title {
+  font-family: 'Open sans', sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 1;
+  margin-bottom: 15px;
+  letter-spacing: 0.05em;
+}
+
+.section-image a {
+  display: block;
+}
+
+#about .section-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#about .section-image {
+  flex-basis: 20%;
+  margin: 0 auto;
+}
+
+#about .section-image a {
+  display: block;
+  border-radius: 50%;
+}
+
+#about .section-image img {
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 25px 0 #d9d9d9;
+}
+
+#about .section-desc {
+  flex-basis: 62%;
+}
+
+#about.section-image,
+#about .section-desc {
+  flex-basis: 100%;
+}
+
+#about .section-image {
+  flex-basis: 100px;
+  margin: 0 auto 20px;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section .inner {
+  padding: 0 15px;
+}
+
+.section .section-title-area {
+  margin-bottom: 20px;
+}
+
+.section .section-title {
+  font-size: 22px;
+}
