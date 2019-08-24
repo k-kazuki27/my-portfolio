@@ -1,0 +1,16 @@
+{
+  "typescriptHero.imports.organizeOnSave": true,
+  "typescriptHero.imports.insertSemicolons": false,
+  "typescriptHero.imports.multiLineWrapThreshold": 140,
+  "typescriptHero.imports.multiLineTrailingComma": false,
+  "editor.formatOnSave": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 80,
+  "prettier.useTabs": false,
+  "prettier.tabWidth": 2,
+  "prettier.bracketSpacing": true,
+  "prettier.tslintIntegration": true,
+  "prettier.stylelintIntegration": true,
+  "workbench.colorCustomizations": {}
+}
