@@ -1,0 +1,11 @@
+{
+  "plugins": [],
+  "extends": ["stylelint-config-rational-order", "stylelint-config-standard", "./node_modules/prettier-stylelint/config.js"],
+  "rules": {
+    "no-empty-source": null,
+    "no-descending-specificity": null,
+     "at-rule-no-unknown": [true, {
+      "ignoreAtRules": ["function", "if", "each", "include", "mixin", "return"]
+    }]
+  }
+}

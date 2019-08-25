@@ -3,6 +3,9 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url(../../assets/back.jpg) 50%;
+  background-size: cover;
+  color: rgb(245, 245, 245);
 
   .title {
     position: relative;
